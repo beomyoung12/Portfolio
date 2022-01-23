@@ -1,0 +1,114 @@
+*{margin: 0; padding: 0;}
+.m_wrap
+{
+  width: 100vw;
+  height: 100vh;
+}
+.wrap
+{
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  /* background-color: black; */
+}
+header, section, footer
+{
+  height: 100vh;
+  width: 100%;
+}
+header
+{
+  /* background-color: pink; */
+  background-image: url("https://www.lottecastle.co.kr/files/etc/2021/5/202105030957411083.jpg");
+  /* background-image: url("https://blog.kakaocdn.net/dn/cvic7t/btrdCGVVeRF/LVcebY3wzXqfJ1RweHgEK0/img.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section
+{
+  background-color: skyblue;
+  background-image: url("https://www.lottecastle.co.kr/files/etc/2020/10/202010151103013770.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer
+{
+  background-color: orange;
+  background-image: url("https://www.lottecastle.co.kr/files/etc/2021/8/202108181253375370.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .menus
+{
+  width: 100%;
+  max-width: 1200px;
+  height: 150px;
+  /* background-color: red; */
+  position: fixed;
+  display: flex;
+}
+header .menus .h_box
+{
+  height: 100%;
+}
+header .menus .icon_box
+{
+  flex: 1;
+  /* background-color: rgb(163, 83, 38); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menus .icon_box img
+{
+  width: 100%:
+}
+header .menus .menu_box
+{
+  flex: 2;
+  /* background-color: rgb(31, 172, 196); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menus .menu_box li
+{
+  text-align: center;
+  /* background-color: red; */
+  list-style: none;
+  width: 120px;
+  cursor: pointer;
+  font-weight: bold;
+}
+header .menus .menu_box li:hover
+{
+  color: red;
+}
+header .menus .sns_box
+{
+  flex: 1;
+  /* background-color: rgb(143, 50, 148); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header .menus .sns_box img
+{
+  width: 40px;
+}
+header .bts
+{
+  margin-top: 20vh;
+  height: 60vh;
+  width: 150px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+header .bts button
+{
+  flex: 1;
+}

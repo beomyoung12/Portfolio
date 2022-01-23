@@ -1,0 +1,69 @@
+*{margin: 0; padding: 0;}
+.wrap
+{
+  max-width: 500px;
+  min-width: 320px;
+  /* margin: 0 auto; */
+  /* display: flex; */
+  /* align-items: center; */
+  background-color: black;
+}
+.scrollWrap
+{
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+header, section, article, footer
+{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+  flex: 1;
+}
+header
+{
+  background-color: pink;
+}
+section
+{
+  background-color: orange;
+}
+article
+{
+  background-color: silver;
+}
+footer
+{
+  background-color: skyblue;
+}
+.menus
+{
+  max-width: 1200px;
+  width: 100px;
+  height: 100vh;
+  background-color: brown;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.menus .bt
+{
+  width: 100%;
+  border: 1px solid black;
+  flex: 1;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menus .bt:hover
+{
+  background-color: rgb(49, 107, 194);
+}

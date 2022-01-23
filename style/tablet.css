@@ -1,0 +1,42 @@
+/*태블릿 시작*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header
+  {
+    width: 100%; height: 80px;
+    background-color: rgb(200, 214, 132);
+    position: relative;
+  }
+  header .menu_wrap
+  {
+    width: 100%; height: 100%;
+    cursor: pointer;
+  }
+  header .menu_wrap .h_menu
+  {
+    width: 100%; height: 100%;
+    background-color: rgb(47, 48, 33);
+  }
+  header .menu_wrap .h_menu ul
+  {
+    width: 100%; height: 100%;
+    background-color: rgb(22, 203, 200);
+    text-align: center;
+  }
+  header .menu_wrap .h_menu ul li
+  {
+    list-style: none;
+    width: 50%; height: 60px;
+    float: left;
+    line-height: 60px;
+    font-size: 20px;
+  }
+  header .menu_wrap .h_menu ul li:nth-child(2)
+  {
+    background-color: rgb(161, 23, 110);
+  }
+  header .menu_wrap .h_menu ul li:nth-child(3)
+  {
+    background-color: rgb(86, 75, 128);
+  }
+}
+/*태블릿 끝*/
